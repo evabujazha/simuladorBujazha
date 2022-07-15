@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cuprum',Helvetica,Arial,Lucida,sans-serif; }
+  
+    header {
+        grid-area: header;
+        z-index: 1000; }
+        header nav {
+          background: linear-gradient(to left, #7CDA24, white); }
+          header nav img {
+            width: 20vw; }
+          header nav .nav-link {
+            color: #282828;
+            font-size: 20px; }
+  h1 {
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 20px; }
+  
+  h2 {
+    font-size: 5vh;
+    text-align: center;
+    padding: 5px; }
+  
+  p {
+    text-align: justify;
+    font-size: 2.5vh;
+    padding: 40px 10vw; }
+
+  .imgPesas{
+    width: 40vw;
+    border: 4px inset #282828;
+    display: block;
+    margin: 0 auto;
+    }
+  
+  h3 {
+    font-size: 3.5vh;
+    text-align: center;
+    margin: 4vh 0 1.5vh 0;
+}
+  
+  #calculadora, #superavit-deficit {
+    padding: 25px 10vw; }
+    #calculadora h4, #superavit-deficit h4 {
+      font-size: 2.5vh;
+      font-weight: 750; }
+    #calculadora h5, #superavit-deficit h5 {
+      font-size: 2.2vh; }
+    #calculadora ul li, #superavit-deficit ul li {
+      font-size: 2vh; }
+
+  form{
+    margin: 1.5vh 0;
+  }
+  .radioElement{
+    display: inline-block;
+    margin: 5px 10px;
+  }
+  .inputRadio{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+  }
+  label{
+    font-size: 2vh;
+    margin: auto 0;
+  }
+  .inputNumber{
+    width: 50vw;
+    height: 4vh;
+    margin: 10px;
+  }
+  .inputSubmit{
+    width: 10vw;
+    height: 4vh;
+    margin: 10px;
+  }
+  .tips{
+    font-weight: 700;
+  }
+
+  footer {
+    grid-area: footer; }
+    footer img {
+      padding: 0px 10px; }
+  
+  @media screen and (max-width: 768px) {
+    .imgPesas{
+      width: 70vw;
+    }
+    .inputNumber{
+      width: 70vw;
+    }
+    .inputSubmit{
+      width: 20vw;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .imgPesas{
+      width: 60vw;
+    }
+}
+  
