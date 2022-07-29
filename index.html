@@ -47,25 +47,29 @@
     <div id="calculadora">
         <h4>Aprendé a contar tus calorias</h4>
         <h5>Insertá acá tus datos y conoce cuantas calorias tenes que comer por dia para mantenerte</h5>
-      <form>
         <div class="radioElement">
-        <input type="radio" name="sexo" id="hombre" class="inputRadio"></input>
+        <input type="radio" name="sexo" id="hombre" class="inputRadio" value="hombre"></input>
         <label>
           Hombre
         </label>
         </div>
         <div  class="radioElement">
-        <input type="radio" name="sexo" id="mujer" class="inputRadio"></input>
+        <input type="radio" name="sexo" id="mujer" class="inputRadio" value="mujer"></input>
         <label>
           Mujer
         </label>
         </div>
         <br>
-        <input type="number" name="peso" id="peso" placeholder="insertá tu peso en kg" class="inputNumber"><br>
+        <input type="number" name="peso" id="peso" placeholder="Insertá tu peso en kg" class="inputNumber"><br>
         <input type="number" name="altura" id="altura" placeholder="Insertá tu altura en cm" class="inputNumber"><br>
         <input type="number" name="edad" id="edad" placeholder="Insertá tu edad en años" class="inputNumber"><br>
-        <input type="submit" class="inputSubmit">
+        <div class="actividadDiv">
+            <input type="range" min="0" max="4" id="actividad">
+            <label for="actividad" id="actividadTexto">Cuanto ejercicio haces?</label><br>
+        </div>
+        <button type="button" class="inputSubmit" id="submit">Calcular</button>
       </form>
+      <h4 class="resultadoCalculo" id="resultadoCalculo">Tus calorias de mantenimiento son:</h4>
       <h5 class="tips">Algunos tips muy útiles</h5>
       <ul>
         <li>Estas son tus calorias de mantenimiento, o sea, ingiriendo la cantidad indicada deberias mantenerte en tu peso actual </li>
