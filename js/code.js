@@ -180,7 +180,12 @@ function formSubmit() {
     }
     resultado.innerText = `Tus calorias de mantenimiento son: ${caloriasNecesarias} kcals`;
   } else {
-    alert(`Recordá completar todos los campos`);
+    swal({
+      title: `Error`,
+      text: `Completá todos los campos!`,
+      icon: `error`,
+      condirmButtonText: `Ok`,
+    });
   }
   console.log(caloriasNecesarias);
 }
