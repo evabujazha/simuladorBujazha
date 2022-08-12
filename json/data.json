@@ -1,0 +1,92 @@
+[
+  {
+    "producto": "Avena con Manzana",
+    "precio": 390,
+    "kcals": "157",
+    "protes": "3g",
+    "carbs": "34g",
+    "grasas": "1g",
+    "img": "../assets/imagenes/avenaConManzana.png",
+    "id": 1
+  },
+  {
+    "producto": "Barquillos de Papaya",
+    "precio": 420,
+    "kcals": "195",
+    "protes": "5g",
+    "carbs": "46g",
+    "grasas": "1g",
+    "img": "../assets/imagenes/barquillosDePapaya.png",
+    "id": 2
+  },
+  {
+    "producto": "Omelet de Tomate y Ajo",
+    "precio": 560,
+    "kcals": "235",
+    "protes": "27g",
+    "carbs": "18g",
+    "grasas": "7g",
+    "img": "../assets/imagenes/omelet.png",
+    "id": 3
+  },
+  {
+    "producto": "Ensalada de Pollo y Tomatillo",
+    "precio": 620,
+    "kcals": "141",
+    "protes": "16g",
+    "carbs": "12g",
+    "grasas": "4g",
+    "img": "../assets/imagenes/EPT.png",
+    "id": 4
+  },
+  {
+    "producto": "Quesadillas de Vegetales",
+    "precio": 600,
+    "kcals": "134",
+    "protes": "7g",
+    "carbs": "20g",
+    "grasas": "3g",
+    "img": "../assets/imagenes/QV.png",
+    "id": 5
+  },
+  {
+    "producto": "Papas Rellenas",
+    "precio": 690,
+    "kcals": "222",
+    "protes": "9g",
+    "carbs": "43g",
+    "grasas": "2g",
+    "img": "../assets/imagenes/PR.png",
+    "id": 6
+  },
+  {
+    "producto": "Calabacitas Salteadas",
+    "precio": 490,
+    "kcals": "32",
+    "protes": "2g",
+    "carbs": "5g",
+    "grasas": "1g",
+    "img": "../assets/imagenes/CS.png",
+    "id": 7
+  },
+  {
+    "producto": "Pimientos con Pavo a la Barbacoa",
+    "precio": 580,
+    "kcals": "209",
+    "protes": "17g",
+    "carbs": "28g",
+    "grasas": "4g",
+    "img": "../assets/imagenes/PPB.png",
+    "id": 8
+  },
+  {
+    "producto": "Tacos de Pescado",
+    "precio": 710,
+    "kcals": "239",
+    "protes": "19g",
+    "carbs": "32g",
+    "grasas": "5g",
+    "img": "../assets/imagenes/TP.png",
+    "id": 9
+  }
+]

@@ -92,6 +92,10 @@ label {
 input::placeholder {
   padding-left: 7px;
 }
+input {
+  font-size: 1.5vh;
+  padding-left: 7px;
+}
 .actividadDiv {
   width: 100vw;
   height: 4vh;
@@ -121,6 +125,18 @@ input::placeholder {
   margin-top: 40px;
 }
 
+.h1 {
+  text-align: center;
+}
+.h2 {
+  text-align: center;
+}
+.col {
+  padding: 10px 30px;
+}
+.img-thumbnail {
+  height: 100%;
+}
 footer {
   grid-area: footer;
 }

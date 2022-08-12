@@ -81,9 +81,9 @@ function actividadNuevo() {
   } else if (actividad.value == 2) {
     actividadTexto.innerText = "Normal";
   } else if (actividad.value == 3) {
-    actividadTexto.innerText = "Mucha";
+    actividadTexto.innerText = "Mucho";
   } else if (actividad.value == 4) {
-    actividadTexto.innerText = "Extrema";
+    actividadTexto.innerText = "Extremo";
   }
   console.log(actividad.value);
 }
@@ -99,9 +99,9 @@ function actividadNuevo() {
   } else if (actividad.value == 2) {
     actividadTexto.innerText = "Normal";
   } else if (actividad.value == 3) {
-    actividadTexto.innerText = "Mucha";
+    actividadTexto.innerText = "Mucho";
   } else if (actividad.value == 4) {
-    actividadTexto.innerText = "Extrema";
+    actividadTexto.innerText = "Extremo";
   }
   console.log(actividad.value);
 }
