@@ -137,6 +137,7 @@ input {
 .img-thumbnail {
   height: 100%;
 }
+
 footer {
   grid-area: footer;
 }
@@ -159,5 +160,11 @@ footer img {
 @media screen and (max-width: 1024px) {
   .imgPesas {
     width: 60vw;
+  }
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
   }
 }
